@@ -6,7 +6,7 @@ This is a basic Java Spring application made using Spring AOP, Spring MVC and Hi
 
 Basically this is an application connected to a MySQL database with one table (employees) and we can execute CRUD operations on this table. We can list all employees, add an employee, update an employee and delete an employee. 
 
-### Installing and executing
+## Installing and executing
 
 * Install XAMPP or MySQL Workbench
 * Create a database named "springdb" with the following table
