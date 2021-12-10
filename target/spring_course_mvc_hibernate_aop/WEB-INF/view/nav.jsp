@@ -1,0 +1,28 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: sample
+  Date: 10.12.2021
+  Time: 0:28
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Employees</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbars"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbars">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Second</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Third</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
