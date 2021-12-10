@@ -26,7 +26,8 @@
 <body>
 <div class="container py-3">
     <jsp:include page="nav.jsp"></jsp:include>
-    <div class="text-center">
+
+    <div class="text-center py-4">
         <h2>All employees</h2>
     </div>
 
@@ -85,7 +86,7 @@
         <input type="button" class="btn btn-secondary btn-block" value="Add" onclick="window.location.href = 'addNewEmployee'"/>
     </div>
 
-
+    <jsp:include page="footer.jsp"></jsp:include>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
