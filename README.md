@@ -9,7 +9,7 @@ Basically this is an application connected to a MySQL database with one table (e
 ## Installing and executing
 
 * Install XAMPP or MySQL Workbench
-* Create a database named "springdb" with the following table
+* Create a database named "springdb" with user = "root" and password = "" with the following table
 ```
 CREATE TABLE employees(
   id INT(11) PRIMARY KEY AUTO_INCREMENT,
