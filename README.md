@@ -1,6 +1,6 @@
-# Spring application example
+# Title
 
-This is a basic Java Spring application made using Spring AOP, Spring MVC and Hibernate modules.
+Basic Java Spring application made using Spring AOP, Spring MVC and Hibernate modules.
 
 ## Description
 
