@@ -25,7 +25,7 @@
 
 <body>
 <div class="container py-3">
-    <jsp:include page="nav.jsp"></jsp:include>
+    <jsp:include page="templates/nav.jsp"></jsp:include>
 
     <div class="text-center py-4">
         <h2>All employees</h2>
@@ -69,12 +69,10 @@
                                        onclick="window.location.href = '${updateButton}'"/>
                             </div>
                             <div class="col">
-                                <input type="button" value="Delete" class="btn btn-secondary"
+                                <input type="button" value="Delete" class="btn btn-secondary btn-danger"
                                        onclick="window.location.href = '${deleteButton}'"/>
                             </div>
                         </div>
-
-
                     </div>
                 </td>
             </tr>
@@ -88,7 +86,7 @@
 
     <div id="js_example"></div>
 
-    <jsp:include page="footer.jsp"></jsp:include>
+    <jsp:include page="templates/footer.jsp"></jsp:include>
 
 
 </div>

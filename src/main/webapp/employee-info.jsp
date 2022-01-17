@@ -1,29 +1,13 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
+<jsp:include page="templates/head.jsp" ></jsp:include>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Add employee</title>
-
-    <style>
-        @media (min-width: 576px) {
-            .container {
-                max-width: 100%;
-            }
-        }
-
-        @media (min-width: 1200px) {
-            .container {
-                max-width: 1170px;
-            }
-        }
-    </style>
 </head>
 <body>
 <div class="container py-3">
-    <jsp:include page="nav.jsp"></jsp:include>
+    <jsp:include page="templates/nav.jsp"></jsp:include>
 
     <div class="text-center py-4">
         <h2>Employee Info</h2>
@@ -61,7 +45,7 @@
         </form:form>
     </div>
 
-    <jsp:include page="footer.jsp"></jsp:include>
+    <jsp:include page="templates/footer.jsp"></jsp:include>
 
 </div>
 </body>
